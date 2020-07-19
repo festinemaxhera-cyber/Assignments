@@ -61,17 +61,6 @@ public class WebDriverTests2 {
 //        Step 12. Verify that email is from: “do-notreply@practice.cybertekschool.com”
 //        Step 13. Verify that subject is: “Thanks for subscribing to practice.cybertekschool.com!”
 
-
-//        driver.findElement(By.xpath("//tbody[@id='schranka']//tr[@class='hidden-xs hidden-sm klikaciRadek']//td[1]")).click();
-//        String emailconfig = driver.findElement(By.id("odesilatel")).getText();
-//        Assert.assertEquals(emailconfig,"do-not-reply@practice.cybertekschool.com");
-//        String subject = driver.findElement(By.id("predmet")).getText();
-//        Assert.assertEquals(subject,"Thanks for subscribing to practice.cybertekschool.com!");
-//        String email = driver.findElement(By.xpath("//td[@class='from']")).getText();
-//        String configEmail = " do-not-reply@practice.cybertekschool.com";
-//        Assert.assertEquals(email,configEmail);
-//        String subject = driver.findElement(By.xpath("//tr[@class='hidden-xs hidden-sm klikaciRadek']//td[2]")).getText();
-//        Assert.assertEquals(subject,"Thanks for subscribing to practice.cybertekschool.com!");
     }
     @Test
     public static void testCase7(){
